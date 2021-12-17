@@ -1,12 +1,14 @@
-import React from 'react';
+//Kertoo, mikä on sovelluksen komponentti, nyt se on <App /> 
+//  /* Kommentti */   /* */
+import React from 'react'; /* Käytetään react-kirjastoa, löytyy nodemoduulista, importoidaan sieltä*/
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import App from './App';  //App on komponentin nimi, joka löytyy tiedostosta App.js
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
+
   <React.StrictMode>
-    <App />
+    <App /> 
   </React.StrictMode>,
   document.getElementById('root')
 );
